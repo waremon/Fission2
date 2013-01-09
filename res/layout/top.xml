@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:layout_height="5dip"
+        android:layout_width="match_parent"
+        android:id="@+id/linearLayout1"
+        android:layout_weight="18"
+        android:gravity="center"
+        android:background="@drawable/fission2_background2">
+        <LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:orientation="vertical">
+
+		<ImageButton
+	        	android:id="@+id/topButton1"
+	        	android:layout_width="250dp"
+        		android:layout_height="60dp"
+        		android:layout_marginTop="250dp"
+        		android:layout_gravity="center"
+        		android:src="@drawable/studyfission"
+        		android:scaleType="fitXY"
+        		android:soundEffectsEnabled="false"
+        		android:background="@null"/>
+	    <ImageButton
+    	    android:id="@+id/topButton2"
+        	android:layout_width="250dp"
+        	android:layout_height="60dp"
+        	android:layout_marginTop="5dp"
+        	android:layout_gravity="center"
+        	android:src="@drawable/howtoplay"
+        	android:scaleType="fitXY"
+        	android:soundEffectsEnabled="false"
+        	android:background="@null"/>
+    	<ImageButton
+        	android:id="@+id/topButton3"
+        	android:layout_width="250dp"
+        	android:layout_height="60dp"
+        	android:layout_marginTop="5dp"
+        	android:layout_gravity="center"
+        	android:src="@drawable/startgame"
+        	android:scaleType="fitXY"
+        	android:soundEffectsEnabled="false"
+        	android:background="@null"/>
+    	</LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_height="0dip"
+        android:background="#000000"
+        android:layout_width="match_parent"
+        android:id="@+id/adlayout"
+        android:layout_weight="2">
+    </LinearLayout>
+</LinearLayout>
